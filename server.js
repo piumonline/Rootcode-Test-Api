@@ -2,6 +2,7 @@ const express=require("express");
 const routePath=require("./routes/expenseRoutes");
 const connectDb = require("./config/dbConnection");
 const cors = require("cors");
+const dotenv = require("dotenv").config();
 
 const PORT = process.env.PORT || 8080;
 
